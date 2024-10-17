@@ -22,6 +22,8 @@ public class Main {
 
         bank.printAllCustomers();
 
+        System.out.println(" ");
+
 
         Savings savingsAccount1 = new Savings();
 
@@ -37,6 +39,7 @@ public class Main {
 
          bank.printAllCustomers();
 
+        System.out.println(" ");
 
          Checking checkingAccount2 = new Checking();
 
