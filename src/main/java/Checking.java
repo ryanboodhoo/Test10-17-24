@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Checking extends Account {
+    @Override
+    public AccountType getAccountType() {
+        return AccountType.Checking;
+    }
 
-public class Checking {
+    @Override
+    public double getTransactionFee(AccountType accountType) {
+        return 5.0;
+    }
 }
